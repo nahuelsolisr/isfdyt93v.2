@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+    
+
+    
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/inscribirse.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo me-auto"><a href="index.html">Instituto 93</a></h1>
+    
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+              <li><a class="nav-link scrollto" href="inscripcionmaterias.html">Incribirse a Materias</a></li>
+              <li><a class="getstarted scrollto" href="login.html">Iniciar Sesion</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
+        </div>
+      </header><!-- End Header -->
+
+<h1 class="main-title text-center">FORMULARIO DE INSCRIPCIÓN A CARRERA</h1>
+
+
+<section id="contact-first-form" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-12 order-1 order-lg-2 text-left align-items-center">
+                    <form class="email-form" id="datosForm">
+                        <h3 class="text-center"><b class="box-top-bot">CARRERAS</b></h3>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <div class="col-12">
+                                <!-- Name input-->
+                                <div class="mb-3">
+                                    <label for="name">Carrera</label>
+                                    <select class="form-select" name="CarreraId" id="CarreraId">
+                                        <option value="0">Seleccione Carrera</option>
+                                        <option value="1">Sistemas</option>
+                                        <option value="2">Marketing</option>
+                                        <option value="3">Administración Pública</option>
+                                        <option value="4">Administración Contable</option>
+                                        <option value="5">Programacion</option>
+                                        <option value="6">Enfermería</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="text-center"><b class="box-top-bot">DATOS DEL ALUMNO</b></h3>
+                        
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="Apellido">Apellido/s</label>
+                                    <input class="form-control" name="Apellido" id="Apellido" type="text" placeholder="Ingrese su Apellido" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Nombre/s</label>
+                                    <input class="form-control" name="Nombre" id="Nombre" type="text" placeholder="Ingrese su nombre" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mt-3">
+                                    <label for="TipoDocumentoId">Tipo Documento</label>
+                                    <select class="form-select" name="TipoDocumentoId" id="TipoDocumentoId">
+                                        <option value="0">Seleccione Tipo Documento</option>
+                                        <option value="1">DNI</option>
+                                        <option value="2">CUIL</option>
+                                        <option value="3">LC</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Documento</label>
+                                    <input class="form-control" name="Documento" id="Documento" type="text" placeholder="Ingrese su Documento" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Estado Civil</label>
+                                <select class="form-select" name="EstadoCivilId" id="EstadoCivilId">
+                                    <option value="0">Seleccione Estado Civil</option>
+                                    <option value="1">Soltero/a</option>
+                                    <option value="2">Casado/a</option>
+                                </select>
+                                
+                            </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Sexo</label>
+                                    <select class="form-select" name="Sexo" id="Sexo">
+                                        <option value="0">Seleccione una opcion</option>
+                                        <option value="1">Masculino</option>
+                                        <option value="2">Femenino</option>
+                                        <option value="3">Otro</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="fechaNacimiento" class="text-left">Fecha de Nac.</label>
+                                    <input type="date" class="form-control" name="fechaNacimiento" id="fechaNacimiento" required>   
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Localidad de Nacimiento</label>
+                                    <select class="form-select" name="EstadoCivilId" id="EstadoCivilId">
+                                        <option value="0">Seleccione una Localidad</option>
+                                        <option value="1">Guernica</option>
+                                        <option value="2">Alejandro Korn</option>
+                                        <option value="3">San Vicente</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="PaisNacimiento">País de Nacimiento</label>
+                                    <select class="form-select" name="PaisNacimiento" id="PaisNacimiento">
+                                        <option value="0">Seleccione un País</option>
+                                        <option value="1">Argentina</option>
+                                        <option value="2">Uruguay</option>
+                                        <option value="3">Chile</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Calle</label>
+                                    <input class="form-control" name="Calle" id="Calle" type="text" placeholder="Ingrese su calle" />
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-2">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">N° de Casa</label>
+                                    <input class="form-control" name="NumeroCalle" id="NumeroCalle" type="text" placeholder="N° de casa" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Piso</label>
+                                    <input class="form-control" name="Piso" id="Piso" type="text" placeholder="Piso" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Dpto</label>
+                                    <input class="form-control" name="Departamento" id="Departamento" type="text" placeholder="Departamento" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Provincia">Provincia</label>
+                                    <select class="form-select" name="Provincia" id="Provincia">
+                                        <option value="0">Seleccione una Provincia</option>
+                                        <option value="1">Buenos Aires</option>
+                                        <option value="2">Chaco</option>
+                                        <option value="3">Santiago Del Estero</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Distrito">Distrito</label>
+                                    <input class="form-control" name="Distrito" id="Distrito" type="text" placeholder="Ingrese su Distrito" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Localidad">Localidad</label>
+                                    <select class="form-select" name="Localidad" id="Localidad">
+                                        <option value="0">Seleccione una Localidad</option>
+                                        <option value="1">Guernica</option>
+                                        <option value="2">Alejandro Korn</option>
+                                        <option value="3">San Vicente</option>
+                                    </select>
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Código Postal</label>
+                                    <input class="form-control" name="CodigoPostal" id="CodigoPostal" type="text" placeholder="Ingrese su Codigo Postal" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Telefono">Telefono Fijo</label>
+                                    <input class="form-control" name="Telefono" id="Telefono" type="text" placeholder="Ingrese su Telefono" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Celular">Celular</label>
+                                    <input class="form-control" name="Celular" id="Celular" type="text" placeholder="Ingrese su Celular" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="mb-3 mt-3">
+                                    <label for="Email">Email</label>
+                                    <input class="form-control" name="Email" id="Email" type="email" placeholder="Ingrese su Email" />
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
+
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-12 order-1 order-lg-2 text-left align-items-center">
+                    <form class="email-form contactForm" id="formacionForm">
+                        <h3 class="text-center"><b class="box-top-bot">FORMACIÓN</b></h3>
+                        
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                    Titulo Secundario:
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" id="TituloSecundarioSI" name="TituloSecundarioRB" value="1" required>
+                                        Si
+                                      </label>
+                                      <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" id="TituloSecundarioNO" name="TituloSecundarioRB" value="0" checked required>
+                                        No
+                                      </label>
+                                </div>
+                            </div>
+                            <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="SiAdeudaMaterias">
+                            <div class="col-md-6">
+                                    <!-- Name input-->
+                                    <div class="mb-3 mt-3" >
+                                        <label for="AdeudaMaterias">Cuantas materias debe?</label>
+                                     <input class="form-control" name="AdeudaMaterias" id="AdeudaMaterias"  type="number" placeholder="Ingrese cantidad de materias" />
+                                 </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="CualesMaterias">Cuales Debe?</label>
+                                    <input class="form-control" name="CualesMaterias" id="CualesMaterias" type="text" placeholder="Ingrese cuales materias" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section" id="NoAdeudaMaterias">
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section">
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="Titulo">En caso de contestar <b>Si</b> Ingresar Titulo</label>
+                                    <input class="form-control" name="Titulo" id="Titulo" type="text" placeholder="Ingrese su Titulo" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="Orientecion">Orientecion</label>
+                                    <input class="form-control" name="Orientecion" id="Orientecion" type="text" placeholder="Ingrese la orientacion" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3"> 
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="Otorgado">Otorgado Por</label>
+                                    <input class="form-control" name="Otorgado" id="Otorgado" type="text" placeholder="Ingrese quien le otorgo el titulo" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="Egreso">Año de Egreso</label>
+                                    <input class="form-control" name="Egreso" id="Egreso" type="text" placeholder="Ingrese su Año de egreso" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="mb-3 mt-3">
+                                    <label for="Promedio">Promedio</label>
+                                    <input class="form-control" name="Promedio" id="Promedio" type="text" placeholder="Ingrese su promedio" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                            <div class="col-md-4 align-items-center">
+                                <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                    Titulo en Trámite:
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TituloEnTramiteRB" value="1" checked required>
+                                        Si
+                                      </label>
+                                      <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TituloEnTramiteRB" value="0" required>
+                                        No
+                                      </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="mb-3 mt-3">
+                                <label for="MayorTituloObtenido">Mayor Titulo Obtenido</label>
+                                <select class="form-select" name="MayorTituloObtenido" id="MayorTituloObtenido">
+                                    <option>Seleccione un Titulo</option>
+                                    <option value="1">Terciario</option>
+                                    <option value="2">Universitario</option>
+                                    <option value="3">Postgrado</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="MayorTitulo">Titulo</label>
+                                    <input class="form-control" name="MayorTitulo" id="MayorTitulo" type="text" placeholder="Ingrese el titulo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                            <div class="col-md-8">
+                                <div class="mb-3 mt-3">
+                                    <label for="OtorgadoMayorTitulo">Otorgado Por</label>
+                                    <input class="form-control" name="OtorgadoMayorTitulo" id="OtorgadoMayorTitulo" type="text" placeholder="Ingrese quien se lo otorgo" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3 mt-3">
+                                    <label for="MayorTituloPromedio">Promedio</label>
+                                    <input class="form-control" name="MayorTituloPromedio" id="MayorTituloPromedio" type="text" placeholder="Ingrese su promedio" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                            <h5 class="text-center mt-3 mb-3"><b>INFORMACIÓN COMPLEMENTARIA</b></h5>
+                            <H6><b>Maximo Nivel educativo del padre</b></H6>
+                                 
+                            <div class="col-md-12">
+                             
+                                 <div class="mb-3 mt-3">
+                                    <label for="name">Mayor Titulo Obtenido</label>
+                                     <select class="form-select" name="MayorTituloObtenidoPadre" id="MayorTituloObtenido" required>
+                                         <option value="0">Seleccione un Titulo</option>
+                                         <option value="1">Nunca Asistio</option>
+                                         <option value="2">Primaria Incompleta</option>
+                                         <option value="3">Primaria Completa</option>
+                                         <option value="4">Secundaria Incompleta</option>
+                                         <option value="5">Secundaria Completa</option>
+                                         <option value="6">Terciario Incompleta</option>
+                                         <option value="7">Terciario Completa</option>
+                                         <option value="8">Universitario Incompleta</option>
+                                         <option value="9">Universitario Completa</option>
+                                         <option value="10">No Sabe/No Contesta</option>
+                                     </select>
+                                     
+                                 </div>
+                             
+                             </div>
+                    
+                         <H6><b>Maximo Nivel educativo de la madre</b></H6>
+                         <div class="col-md-12">
+                             <div class="mb-3 mt-3">
+                                 <label for="name">Mayor Titulo Obtenido</label>
+                                 <select class="form-select" name="MayorTituloObtenidoMadre" id="MayorTituloObtenido" required>
+                                     <option value="0">Seleccione un Titulo</option>
+                                     <option value="1">Nunca Asistio</option>
+                                     <option value="2">Primaria Incompleta</option>
+                                     <option value="3">Primaria Completa</option>
+                                     <option value="4">Secundaria Incompleta</option>
+                                     <option value="5">Secundaria Completa</option>
+                                     <option value="6">Terciario Incompleta</option>
+                                     <option value="7">Terciario Completa</option>
+                                     <option value="8">Universitario Incompleta</option>
+                                     <option value="9">Universitario Completa</option>
+                                     <option value="10">No Sabe/No Contesta</option>
+                                 </select>
+                                
+                             </div>
+                         </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
+
+
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title d-flex justify-content-center">       
+                <div class="row">
+                    <div class="col-md-12 order-1 order-lg-2 text-left align-items-center">      
+                    <form class="email-form contactForm" id="trayectoriaOcupacionalForm">
+               
+      
+                        <h3 class="text-center"><b class="box-top-bot">TRAYECTORIA OCUPACIONAL</b></h3>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                            <div class="col-md-12">
+                                <div class="form-group d-flex justify-content-center align-items-center checkbox-center mt-3">
+                                    Trabaja:
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TrabajaRB" id="TrabajaSi" value="1">
+                                        Si
+                                      </label>
+                                      <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TrabajaRB" id="TrabajaNo" value="0" checked>
+                                        No
+                                      </label>
+                                </div>
+                            </div>
+                            <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="SiTrabaja">
+                            <div class="col-md-6" >
+                                
+                                    <!-- Name input-->
+                                    <div class="mb-3 mt-3">
+                                        <label for="SectorLaboral">Sector Laboral</label>
+                                        <select class="form-select" name="SectorLaboral" id="SectorLaboral">
+                                            <option value="0">Seleccione una Ocupación</option>
+                                            <option value="1">Educación</option>
+                                            <option value="2">Gobierno Sector Público</option>
+                                            <option value="3">Servicio Financiero</option>
+                                            <option value="4">Turismo</option>
+                                            <option value="5">Sector Agropecuario </option>
+                                            <option value="6">Comercio</option>
+                                            <option value="7">Empresa</option>
+                                            <option value="8">Servicios</option>
+                                            <option value="9">Transporte</option>
+                                            <option value="10">Profesional Independiente</option>
+                                            <option value="11">Industria Manofacturera</option>
+                                            <option value="12">Energía</option>
+                                            <option value="13">Salud</option>
+                                            <option value="14">Fuerzas Armadas / Seguridad</option>
+                                            <option value="15">Otro</option>
+                                            
+                                        </select>
+                                        
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3 mt-3">
+                                    <label for="HorasTrabajo">Horas de trabajo diarias</label>
+                                    <select class="form-select" name="HorasTrabajo" id="HorasTrabajo">
+                                        <option value="0">Seleccione las Horas</option>
+                                        <option value="1">Entre 1 y 3</option>
+                                        <option value="2">Entre 4 y 8</option>
+                                        <option value="3">Más de 8</option>
+
+                                    </select>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            
+                                <div class="col-md-6">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                        ¿Es pensionado o jubilado?:
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="PensionadoOJubiladoRB" value="1">
+                                            Si
+                                          </label>
+                                          <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="PensionadoOJubiladoRB" value="0" checked>
+                                            No
+                                          </label>
+                                    </div>
+                                </div>
+                                <h3 class="text-center"><b class="box-top-bot">SITUACIÓN FAMILIAR</b></h3>
+                                
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3 ">
+                                    <div class="col-md-12">
+                                        <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                            ¿Vive solo?
+                                                <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" name="ViveSolo" id="SiViveSolo" value="1">
+                                                Si
+                                              </label>
+                                              <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" name="ViveSolo" id="NoViveSolo" value="0" checked>
+                                                No
+                                              </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 form-section" id="ConQuienVive">
+                                        <div class= "mb-3 mt-3">
+                                            <label for="name">Con quien vive</label>
+                                            <select class="form-select" name="ConQuienVive" >
+                                                <option value="0">Seleccione con quien vive</option>
+                                                <option value="1">Vive con sus padres</option>
+                                                <option value="2">Con su cónyuge o conviviente</option>
+                                                <option value="3">Con hijos</option>
+                                                <option value="4">Otros</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                            ¿Tiene familiares a cargo?
+                                                <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" id="SiFamiliaresACargo" name="FamiliaresACargoRB" value="1">
+                                                Si
+                                              </label>
+                                              <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" id="NoFamiliaresACargo" name="FamiliaresACargoRB" value="0" checked>
+                                                No
+                                              </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 form-section" id="FamiliaresACargo">
+                                        <div class="mb-3 mt-3">
+                                            <label for="name">Familiares a cargo</label>
+                                            <select class="form-select" name="FamiliaresACargo" >
+                                                <option value="0">Seleccione un familiar</option>
+                                                <option value="1">Padres</option>
+                                                <option value="2">Hijo/s</option>
+                                                <option value="3">Otros</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="text-center"><b class="box-top-bot">Becas o Programas</b></h3>
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-md-7">
+                                        <div class="mb-3 mt-3">
+                                            <label for="name">Posee Beca o plan o programa alguno</label>
+                                            <select class="form-select" name="CondicionBecasProgramas" id="CondicionBecasProgramas">
+                                                <option value="0">Seleccione uno</option>
+                                                <option value="1">Ninguno</option>
+                                                <option value="2">Estimulos Económicos (INFD)</option>
+                                                <option value="3">Becas Bicentenario</option>
+                                                <option value="4">Pueblos Originarios</option>
+                                                <option value="5">Progresar</option>
+                                                <option value="6">AUH</option>
+                                                <option value="7">Compromiso docente</option>
+                                                <option value="8">Programa Envión</option>
+                                                <option value="9">Argentina trabaja</option>
+                                                <option value="10">Ellas hacen</option>
+                                            </select>
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="text-center"><b class="box-top-bot">PRACTICAS CULTURALES</b></h3>
+                                    <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                                        <div class="col-md-4">
+                                        <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                            ¿Escucha Radio?
+                                                <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" name="EscuchaRadio" value="1">
+                                                Si
+                                              </label>
+                                              <label class="d-flex align-items-center">
+                                                <input style="margin-right: 5px;" type="radio" name="EscuchaRadio" value="0" checked>
+                                                No
+                                              </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                                ¿Mira Television?
+                                                    <label class="d-flex align-items-center">
+                                                    <input style="margin-right: 5px;" type="radio" name="MiraTelevision" value="1">
+                                                    Si
+                                                  </label>
+                                                  <label class="d-flex align-items-center">
+                                                    <input style="margin-right: 5px;" type="radio" name="MiraTelevision" value="0" checked>
+                                                    No
+                                                  </label>
+                                                </div>
+                                            </div>
+                                            
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                        ¿Asiste a obras de teatro?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAObras" value="1">
+                                            Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAObras" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                        ¿Asiste a museos?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAMuseos" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAMuseos" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                        ¿Asiste a conciertos?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAConciertos" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="AsisteAConciertos" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3 form-section">
+                                        ¿Realiza lecturas frecuentes?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" id="SiLecturasFrecuentes" name="LecturasFrecuentesRB" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" id="NoLecturasFrecuentes" name="LecturasFrecuentesRB" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3 form-section" id="RealizaLecturasFrecuentes"> 
+                                        
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="LecturasFrecuentesChb" value="Diarios">
+                                                 Diarios
+                                            </label>
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="LecturasFrecuentesChb" value="Revistas">
+                                                Revistas
+                                            </label>
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="LecturasFrecuentesChb" value="Libros">
+                                                Libros
+                                            </label>
+                                            <label class="d-flex align-items-center mr-5">
+                                                <input style="margin-right: 5px;" type="checkbox" name="LecturasFrecuentesChb" value="LecturasOcupacion">
+                                                    Lecturas relacionadas con su ocupación
+                                                </label>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8">
+                                   
+                                        <div class="mb-3 mt-3">
+                                            <label for="name">Otras prácticas culturales</label>
+                                            <input class="form-control" name="ObraSocialCual" id="ObraSocialCual" type="text" placeholder="Ingrese su nombre" />
+                                        </div>
+                                    
+                                </div>
+
+                                
+                                
+                                <div class="col-md-12">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3 form-section">
+                                        <b>¿Usa Internet?</b>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" id="SiUsaInternet" name="UsaInternetRB" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" id="NoUsaInternet" name="UsaInternetRB" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="UsaInternet">
+                                <div class="col-md-12"  >
+                                    <div class="form-group d-flex align-items-center checkbox-center justify-content-center mt-3">
+                                        <h6><b>De donde acceda a internet</b></h6>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                        
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetHogar">
+                                                 Hogar
+                                            </label>
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetLugarDeTrabajo">
+                                                Lugar de trabajo
+                                            </label>
+                                            <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetAmbitoEducativo">
+                                                Ámbito educativo
+                                            </label>
+                                        
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-12">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                <label class="d-flex align-items-center mr-5">
+                                    <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetCelular">
+                                    Celular
+                                    </label>
+                                    <label class="d-flex align-items-center mr-5">
+                                    <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetCyber">
+                                    Cyber
+                                    </label>
+                                    <label class="d-flex align-items-center mr-5">
+                                    <input style="margin-right: 5px;" type="checkbox" name="AccesoAInternetChb" value="InternetOtro">
+                                    Otro
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                            <div class="col-md-12">
+                                
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                    ¿Utiliza redes sociales?
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" id="SiUsaRedes" name="UtilizaRedes" value="1">
+                                             Si
+                                        </label>
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" id="NoUsaRedes" name="UtilizaRedes" value="0" checked>
+                                            No
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="row gx-4 gx-lg-5 justify-content-center mb-3 form-section" id="UsaRedes">
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3 ">
+                                    Cuales?
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesFacebook">
+                                             Facebook
+                                        </label>
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesTwitter">
+                                            Twitter
+                                        </label>
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesLinkedin">
+                                            Linkedin
+                                 
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                </label>
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesInstagram">
+                                    Instagram
+                                </label>
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesSnapchat">
+                                    Snapchat
+                                </label>
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="RedesChb" value="RedesOtra">
+                                    Otra
+                                </label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center checkbox-center justify-content-center mt-3">
+                                    <h6><b>Paginas o sitios que más frecuenta</b></h6>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                  
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaCorreo">
+                                             Correo electrónico
+                                        </label>
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaBuscadores">
+                                            Buscadores
+                                        </label>
+                                        <label class="d-flex align-items-center mr-5">
+                                            <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaReservorios">
+                                                Reservorios de información
+                                            </label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaDiariosRevistas">
+                                    Diarios y Revistas
+                                </label>
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaPortal">
+                                    Portal ABC
+                                </label>
+                                <label class="d-flex align-items-center mr-5">
+                                <input style="margin-right: 5px;" type="checkbox" name="SitiosFrecuentesChb" value="SitiosFrecuentaOtros">
+                                    Otros
+                                </label>
+
+                            
+                                              
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3 mt-3">
+                                    <label for="name">Otros Sitios Frecuentes</label>
+                                    <input class="form-control" name="OtrasSitiosFrecuenta" id="OtrasPracticasCulturales" type="text" placeholder="Ingrese su nombre" />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center checkbox-center justify-content-center mt-3">
+                                    <h6><b>Participaciones</b></h6>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-evenly checkbox-center mt-3">
+                                    
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="ParticipacionesAcademico" value="ParticipacionesHaIntegradoConsejoAcademico">
+                                             Ha integrado el Consejo Académico Institucional
+                                        </label>
+                                        <label class="d-flex align-items-center mr-5">
+                                        <input style="margin-right: 5px;" type="checkbox" name="ParticipacionesAcademico" value="ParticipacionesIntegraConsejoAcademico">
+                                            Integra actualmente el consejo Academico Institucional
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-items-center justify-content-evenly checkbox-center mt-3">
+                                <label class="d-flex align-items-center mr-5">
+                                    <input style="margin-right: 5px;" type="checkbox" name="ParticipacionesCentro" value="ParticipacionesFormoParteCentroEstudiantes">
+                                        Formó parte del Centro de Estudiantes
+                                    </label>
+                                    <label class="d-flex align-items-center mr-5">
+                                    <input style="margin-right: 5px;" type="checkbox" name="ParticipacionesCentro" value="ParticipacionesFormaParteCentroEstudiantes">
+                                    Forma parte del Centro de Estudiantes
+                                    </label>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
+
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title d-flex justify-content-center">
+            
+
+                    <form class="email-form" id="fichaSaludForm">
+
+                        <h3 class="text-center"><b class="box-top-bot" id="ficha-salud">FICHA DE SALUD EN </b></h3>
+                        <h3 class="text-center"><b class="box-top-bot">CASO DE EMERGENCIA</b></h3>
+                        <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+                            <div class="col-md-4">
+                                <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                    ¿Posee obra social o prepaga?
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="PoseeObraSocial" value="1">
+                                             Si
+                                        </label>
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="PoseeObraSocial" value="0" checked>
+                                            No
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-floating mb-3 mt-3">
+                                    <input class="form-control" name="ObraSocialCual" id="ObraSocialCual" type="text" placeholder="Ingrese su nombre" />
+                                    <label for="name">Indicar Cual</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                    ¿Realiza tratamiento médico?
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TratamientoMedico" value="1">
+                                             Si
+                                        </label>
+                                        <label class="d-flex align-items-center">
+                                        <input style="margin-right: 5px;" type="radio" name="TratamientoMedico" value="0" checked>
+                                            No
+                                        </label>
+                                </div>
+                            </div>
+                                <div class="col-md-8">
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input class="form-control" name="CualTratamientoMedico" id="CualTratamientoMedico" type="text" placeholder="Ingrese su nombre" />
+                                        <label for="name">Indicar Cuál/es</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                        ¿Toma alguna medicación?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="TomaMedicacion" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="TomaMedicacion" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input class="form-control" name="CualMedicacion" id="CualMedicacion" type="text" placeholder="Ingrese su nombre" />
+                                        <label for="name">Indicar Cuál/es</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center checkbox-center mt-3">
+                                        ¿Posee alguna discapacidad?
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="PoseeDiscapacidad" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="PoseeDiscapacidad" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input class="form-control" name="CualDiscapacidad" id="CualDiscapacidad" type="text" placeholder="Ingrese su nombre" />
+                                        <label for="name">Indicar Cuál/es</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                        
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="DiscapacidadEstado" value="1">
+                                                 Permanente
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="DiscapacidadEstado" value="0" checked>
+                                                Transitoria
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-group d-flex align-items-center justify-content-center checkbox-center mt-3">
+                                        Certificado
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="CertificadoMedico" value="1">
+                                                 Si
+                                            </label>
+                                            <label class="d-flex align-items-center">
+                                            <input style="margin-right: 5px;" type="radio" name="CertificadoMedico" value="0" checked>
+                                                No
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6>En caso de emergencia llamar a:</h6>
+                                    <div class="mb-3 mt-3">
+                                        
+                                        <label for="name">Apellido y Nombres</label>
+                                        <input class="form-control" name="EmergenciaFamiliar" id="EmergenciaFamiliar" type="text" placeholder="Ingrese su nombre y apellido" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3 mt-3">
+                                        <label for="name">Teléfono de contacto</label>
+                                        <input class="form-control" style="margin-top: 20px;" name="TelefonoEmergencia" id="TelefonoEmergencia" type="text" placeholder="Ingrese telefono del familiar" />
+                                    </div>
+                                </div>
+                                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                                    <div class="col-lg-6 mt-5">
+                                        <button type="submit" class="btn btn-primary">Incribirse</button>
+                                    </div>
+                                </div>
+                        </div>
+                              
+                  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
+
+<footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        Copyright &copy; 2023 - Instituto 93
+      </div>
+      <div class="credits">
+    
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
+  
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- SimpleLightbox plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/latest/jquery.validate.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/inscripcionCarreras.js"></script>
+</body>
+</html>

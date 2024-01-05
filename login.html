@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/login.css">
+    
+</head>
+<body>
+
+  
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo me-auto"><a href="index.html">Instituto 93</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li> 
+              <li><a class="nav-link scrollto" href="inscripcioncarreras.html">Incribirse a Carrera</a></li>
+              <li><a class="nav-link scrollto" href="inscripcionmaterias.html">Incribirse a Materias</a></li>
+              <li><a class="getstarted scrollto" href="registro.html">Registrarse</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
+        </div>
+      </header><!-- End Header -->
+      <main id="main">
+      <!-- ======= Hero Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <div class="row">
+                    <div class="col-md-6 order-1 order-lg-1 text-center d-flex align-items-center">
+                        <img src="assets/img/logo.png" class="img-fluid animated" alt="">
+                    </div>
+                    <div class="col-md-6 order-1 order-lg-2 text-left align-items-stretch">
+                        <form id="loginForm" class="email-form">
+                          <h3 class="text-center mb-5">Iniciar Sesion</h3>
+                          
+                            <div class="form-floating mb-5 mt-3 form-group">
+                              <input class="form-control" name="Email" id="Email" type="text" placeholder="Ingrese su email" />
+                              <span class="error-message"></span>
+                              <label for="Email">Email</label>
+                              <i class='bx bxs-user'></i>
+                          </div>
+                           
+                            <div class="form-floating mb-3 mt-3 form-group">
+                              <input class="form-control" name="Password" id="Password" type="password" placeholder="Ingrese su Password" />
+                              <span class="error-message"></span>
+                              <label for="Password">Contraseña</label>
+                              <i class='bx bxs-lock-alt' ></i>
+                          </div>
+                          
+                            <div class="remember d-flex justify-content-between align-items-center">
+                              <label class="d-flex align-items-center pt-2" for="Recordarme">
+                                  <input type="checkbox" name="Recordarme"> Recordarme
+                              </label>
+                              <a href=""> Olvido su contraseña? </a>
+                          </div>
+                          
+                            <button type="submit" class="btn btn-primary">Iniciar</button>
+                            <div class="register mt-3 text-center">
+                              <p> No tiene cuenta? <a href="registro.html"> Registrarse </a> </p>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Contact Section -->
+
+  </main>
+
+    <footer id="footer">
+
+      <div class="container footer-bottom mt-5 clearfix">
+        <div class="copyright ">
+          Copyright &copy; 2023 - Instituto 93
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/latest/jquery.validate.min.js"></script>
+
+    <script src="assets/js/login.js"></script>
+    
+</body>
+</html>
