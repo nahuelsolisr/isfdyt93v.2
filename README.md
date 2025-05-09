@@ -1,6 +1,6 @@
 # ISFDYT93v.2 - Instituto Superior de Formación Docente y Técnica N°93
 
-Este repositorio contiene el código base del sitio web del **Instituto Superior de Formación Docente y Técnica N°93**, ubicado en **San Vicente, Argentina**. La plataforma está diseñada para proporcionar información institucional, facilitar la inscripción de estudiantes y conectar con recursos educativos externos.
+La plataforma está diseñada para proporcionar información institucional, facilitar la inscripción de estudiantes y conectar con recursos educativos externos.
 
 ## 🚀 Propósito del Sistema
 El sitio web tiene los siguientes objetivos principales:
